@@ -30,7 +30,7 @@ border: 1px solid white;
 </tr>
 <tr>
 <th><LI><A HREF="#tabla sencilla">Tabla Sencilla</A></LI></th>
-<th><LI><A HREF="#seccion1"></A></LI></th>
+<th><LI><A HREF="#colocar imagenes">Colocar Imágenes</A></LI></th>
 <th><LI><A HREF="#seccion1"></A></LI></th>
 <th><LI><A HREF="#seccion1"></A></LI></th>
 <th><LI><A HREF="#seccion1"></A></LI></th>
@@ -81,17 +81,17 @@ border: 1px solid white;
 pero este se usa m&aacutes en Temas y Subtemas. Reemplaza la x por un N&uacutemero 
 del 1 al 6.<BR>
 <BR>
-<FONT COLOR="Lime">&lt;H1></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H1></FONT><BR>
+<FONT COLOR="Lime">&lt;H1></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H1></FONT><h1>A</h1>
 <BR>
-<FONT COLOR="Lime">&lt;H2></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H2></FONT><BR>
+<FONT COLOR="Lime">&lt;H2></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H2></FONT><BR><h2>A</h2>
 <BR>
-<FONT COLOR="Lime">&lt;H3></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H3></FONT><BR>
+<FONT COLOR="Lime">&lt;H3></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H3></FONT><BR><h3>A</h3>
 <BR>
-<FONT COLOR="Lime">&lt;H4></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H4></FONT><BR>
+<FONT COLOR="Lime">&lt;H4></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H4></FONT><BR><h4>A</h4>
 <BR>
-<FONT COLOR="Lime">&lt;H5></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H5></FONT><BR>
+<FONT COLOR="Lime">&lt;H5></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H5></FONT><BR><h5>A</h5>
 <BR>
-<FONT COLOR="Lime">&lt;H6></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H6></FONT><BR>
+<FONT COLOR="Lime">&lt;H6></FONT> SoyUnTexto <FONT COLOR="Lime">&lt;/H6></FONT><BR><h6>A</h6>
 <BR>
 <BR>
 <H4 id ="tama�o fuente texto"><FONT COLOR="Red">Tamaño de Fuente para Textos:</FONT></H4>
@@ -140,7 +140,7 @@ fuente a un texto. Aqu&iacute algunos Ejemplos:<BR>
 &lt;/CENTER><BR></FONT>
 <BR>
 <BR>
-<H4><FONT COLOR="Red">Colocar Im&aacutegenes</FONT></H4>
+<H4 id="colocar imagenes"><FONT COLOR="Red">Colocar Im&aacutegenes</FONT></H4>
 <BR>
 <FONT COLOR="Lime">&lt;IMG SRC="</FONT>ubicaci&oacuten de la im&aacutegen.jpg<FONT COLOR="Lime">" WID=140 HEIGHT=210 BORDER=0<BR>
 ALT="</FONT>Colocar un nombre en la im&aacutegen<FONT COLOR="Lime">" ALIGN="CENTER"></FONT><BR>
@@ -156,12 +156,12 @@ ALT="</FONT>Colocar un nombre en la im&aacutegen<FONT COLOR="Lime">" ALIGN="CENT
 <BR>
 <H4><FONT COLOR="Red">Bot&oacuten con Opciones Seleccionables</FONT></H4>
 <BR>
-<FONT COLOR="Lime">&lt;select name="</FONT> Aqu&iacuteVaElNomnreDelBot&oacuten "><BR>
+<FONT COLOR="Lime">&lt;select name="</FONT> Aquí Va el Nombre del Botón"<FONT COLOR="Lime">></FONT><BR>
 <BR>
-&lt;option value="1"> Aqu&iacuteVaElNombreDeLaPrimeraOpci&oacuten &lt;/option><BR>
-&lt;option value="2"> Aqu&iacuteVaElNombreDeLaSegundaOpci&oacuten &lt;/option><BR>
-&lt;option value="3"> Aqu&iacuteVaElNombreDeLaTerceraOpci&oacuten &lt;/option><BR>
-&lt;/select><BR>
+<FONT COLOR="Lime">&lt;option value="1"></FONT> Aquí Va el Nombre de la Primera Opción <FONT COLOR="Lime">&lt;/option><BR>
+&lt;option value="2"></FONT> Aquí Va el Nombre de la Segunda Opción <FONT COLOR="Lime">&lt;/option><BR>
+&lt;option value="3"></FONT> Aquí Va el Nombre de la Tercera Opción <FONT COLOR="Lime">&lt;/option><BR>
+&lt;/select></FONT><BR>
 <BR>
 <BR>
 <H4><FONT COLOR="Red">Ventana Modal</FONT></H4>
@@ -190,15 +190,24 @@ ALT="</FONT>Colocar un nombre en la im&aacutegen<FONT COLOR="Lime">" ALIGN="CENT
 
 <H4><FONT COLOR="Red">Enlaces:</FONT></H4>
 <BR>
-&lt;A HREF=" Aqu&iacuteVaElEnlace ">...&lt;/A><BR>
+<FONT COLOR="Lime">&lt;A HREF="</FONT>Aquí Va el Enlace<FONT COLOR="Lime">">...&lt;/A></FONT><BR>
 
 
 
 <H4><FONT COLOR="Red">Cambiar el Color de un Enlace</FONT></H4>
 <br>
-&lt;a href="http://example.com/" style="color:#FF0000;">Red Link&lt;/a>
-
-
+Puedes agregar el color de tu preferencia después delas comillas de culminación de tu enlace, con el atributo: <FONT COLOR="Lime">style="color:"</FONT>Coloca el Color de tu Preferencia<FONT COLOR="Lime">;"</FONT>Coloca el nombre de Tu Etiqueta<FONT COLOR="Lime">&lt;/A></FONT>
+<BR>
+<BR>
+<FONT COLOR="Lime">&lt;a href="</FONT>Coloca Tu Enlace Aquí<FONT COLOR="Lime">" style="color:</FONT>Coloca el color de tu Preferencia Aquí<FONT COLOR="Lime">;"></FONT>Coloca el Nombre de tu Enlace Aquí<FONT COLOR="Lime">&lt;/a></FONT>
+<br>
+<br>
+Ejemplo:
+<br>
+<FONT COLOR="Lime">&lt;a href="</FONT>www.google.com<FONT COLOR="Lime">" style="color:yellow;"></FONT>Google<FONT COLOR="Lime">&lt;/a></FONT>
+<br>
+<br>
+<a href="www.google.com" style="color:yellow;">Google</a>
 </FONT>
 </BODY>
 </HTML>
